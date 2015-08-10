@@ -217,3 +217,5 @@ pip-log.txt
 .vs
 obj
 bin
+bin
+obj
