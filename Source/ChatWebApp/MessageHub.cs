@@ -10,7 +10,7 @@ namespace ChatWebApp
         /// Used to make sure usernames are unique
         /// </summary>
         public static ConcurrentDictionary<string, string> Usernames = new ConcurrentDictionary<string, string>();
-        
+        // TODO: No need for redundant dictionaries...
         public static ConcurrentDictionary<string, string> UserList = new ConcurrentDictionary<string, string>();
         
         public bool Login(string username)
